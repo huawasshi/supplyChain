@@ -1,0 +1,130 @@
+----------------------------------------------------------------------------------
+
+CompanyInfo									//企业信息
+private Integer id;							//数据库自增id
+private String company_name;                //名称
+private String company_person;              //法人
+private String company_tel;                 //电话
+private String company_account;             //账户
+private String company_area;                //注册地
+
+CompanyController					//企业信息接口
+/fabricCompany/modifyCompany		POST	修改企业信息
+输入 CompanyInfo
+输出 CompanyInfo
+
+/fabricCompany/findAllCompany		GET		返回所有企业信息
+输入 
+输出 List<CompanyInfo>
+
+/fabricCompany/findCompanyByArea	GET		通过地区返回企业信息
+输入 area 									//企业地区
+输出 CompanyInfo
+
+/fabricCompany/deleteCompany		POST	删除企业信息
+输入 name 									//企业名称
+输出 
+
+----------------------------------------------------------------------------------
+
+TraceInfo									//交易信息（仅包含生产-最终承销）
+private Integer id;							//数据库自增id
+private String traceabilityId;              //溯源id
+private String name;                        //商品名称
+private String manufactureDate;             //生产日期
+private String manufactor;                  //生产厂家
+private String person;                      //生产厂家法人
+private String telephone;                   //生产厂家电话
+private String validityDate;                //保质期
+private String batchNo;               		//批次号***
+private String listingDate;                 //上架日期
+private String courierNumber;               //快递单号
+private String company;                     //公司名称
+private String tel;                         //公司电话
+private String companyPerson;               //公司负责人***
+private String deliveryDate;                //发货日期
+private String area;                        //区域
+private String state;                       //交易状态
+
+TraceController								//交易信息接口
+/fabricTrace/findAll/{page}/{size}	GET		获取全部交易信息
+输入 page									起始笔数
+输入 size									每页大小
+输出 Page<TraceInfo>
+
+/fabricTrace/findByCainId/{id}		GET		获取链上交易信息 
+输入 id 										溯源id
+输出 JSONObject
+
+/fabricTrace/findById/{id}			GET		获取数据库交易信息 
+输入 id 										数据库自增id
+输出 TraceInfo
+
+/fabricTrace/deleteById/{id}		DELETE	删除数据库交易信息 
+输入 id 										数据库自增id
+输出 
+
+/fabricTrace/updata					POST	更新数据库与链上交易信息 
+输入 TraceInfo 								数据库自增id
+输出 String									成功success 失败error
+
+/fabricTrace/save					POST	保存数据库交易信息 
+输入 TraceInfo 								数据库自增id
+输出 String									成功success 失败error
+
+/fabricTrace/updateState			POST	保存数据库交易信息 
+输入 name 	 								商品名称
+输入 state 	 								状态
+输出
+
+----------------------------------------------------------------------------------
+
+TranInfo									//承销商间交易信息
+private Integer id;							//数据库自增id
+private String traceabilityId;              //溯源id
+private String name;                        //商品名称
+private String traceDate;          			//买入日期
+private String deliveryDate;       			//卖出日期
+private String traceNumber;        			//货运单号
+private String outCompany;         			//卖出公司名称
+private String outTel;             			//卖出公司电话
+private String outPerson;          			//卖出公司法人
+private String outArea;            			//卖出公司区域
+private String inCompany;          			//买入公司名称
+private String inTel;              			//买入公司电话
+private String inPerson;           			//买入公司法人
+private String inArea;             			//买入公司区域
+private String state;              			//交易状态
+
+TraceController								//交易信息接口
+/fabricTrace/findTranAll/{page}/{size}	GET	获取全部交易信息
+输入 page									起始笔数
+输入 size									每页大小
+输出 Page<TranInfo>
+
+/fabricTrace/findTranByChainId/{id}	GET		获取链上交易信息 
+输入 id 										溯源id
+输出 JSONObject
+
+/fabricTrace/findTranById/{id}		GET		获取数据库交易信息 
+输入 id 										数据库自增id
+输出 TranInfo
+
+/fabricTrace/deleteTranById/{id}	DELETE	删除数据库交易信息 
+输入 id 										数据库自增id
+输出 
+
+/fabricTrace/updateTran				POST	更新数据库与链上交易信息 
+输入 TranInfo 								数据库自增id
+输出 String									成功success 失败error
+
+/fabricTrace/saveTran				POST	保存数据库交易信息 
+输入 TranInfo 								数据库自增id
+输出 String									成功success 失败error
+
+/fabricTrace/updateTranState		POST	保存数据库交易信息 
+输入 name 	 								商品名称
+输入 state 	 								状态
+输出
+
+----------------------------------------------------------------------------------

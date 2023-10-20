@@ -1,0 +1,13 @@
+id	amount	area	company	courier_number	delivery_date	listing_date	manufactor	manufacture_date	name	person	state	tel	telephone	traceability_id	validity_date
+1	0	北京	company	001	2023-10-20T16:00:00.000Z	0	company-001	2023-05-31T16:00:00.000Z	test-001	person1	0	186xxxx1111	139xxxx1111	01	01
+2	0	合肥	company	002	2023-10-20T16:00:00.000Z	0	company-002	2023-05-31T16:00:00.000Z	test-002	person2	0	186xxxx1111	139xxxx1111	02	02
+3	23	日本-东京	company	003	2023-10-20T16:00:00.000Z	0	company-003	2023-05-31T16:00:00.000Z	test-003	person3	0	186xxxx1111	139xxxx1111	03	03
+4	34	乌鲁木齐	company	004	2023-10-20T16:00:00.000Z	0	company-004	2023-05-31T16:00:00.000Z	test-004	person4	0	186xxxx1111	139xxxx1111	04	04
+5	45	美国-华盛顿	company	005	2023-10-20T16:00:00.000Z	0	company-005	2023-05-31T16:00:00.000Z	test-005	person5	0	186xxxx1111	139xxxx1111	05	05
+6	56	加拿大-温哥华	company	006	2023-10-20T16:00:00.000Z	0	company-006	2023-05-31T16:00:00.000Z	test-006	person6	0	186xxxx1111	139xxxx1111	06	06
+7	1	安哥拉-罗安达	company	007	2023-10-20T16:00:00.000Z	0	company-007	2023-05-31T16:00:00.000Z	test-007	person7	0	186xxxx1111	139xxxx1111	07	07
+8	12	俄罗斯-莫斯科	company	008	2023-10-20T16:00:00.000Z	0	company-008	2023-05-31T16:00:00.000Z	test-008	person8	0	186xxxx1111	139xxxx1111	08	08
+9	44	马来西亚-甘榜峇鲁	company	009	2023-10-20T16:00:00.000Z	0	company-009	2023-05-31T16:00:00.000Z	test-009	person9	0	186xxxx1111	139xxxx1111	09	09
+10	36	西班牙-马德里	company	010	2023-10-20T16:00:00.000Z	0	company-010	2023-05-31T16:00:00.000Z	test-010	person9	0	186xxxx1111	139xxxx1111	10	10
+11	33	广东	company	011	2023-10-20T16:00:00.000Z	0	company-011	2023-05-31T16:00:00.000Z	test-011	person11	0	186xxxx1111	139xxxx1111	11	11
+12	64	北京	company	012	2023-10-20T16:00:00.000Z	0	company-012	2023-05-31T16:00:00.000Z	test-012	person12	0	186xxxx1111	139xxxx1111	12	12

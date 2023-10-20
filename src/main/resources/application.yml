@@ -1,0 +1,34 @@
+spring:
+  data:
+    neo4j:
+      uri: bolt://localhost:7687
+      username: test
+      password: dbhdbh
+  datasource:
+#    url: jdbc:mysql://localhost:3306/bjpowernode?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://192.168.36.128:3306/fabric?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: dbhdbh
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        enable_lazy_load_no_trans: true
+        hbm2ddl:
+          auto: update
+    show-sql: true
+
+server:
+  port: 8181
+
+pathinfo:
+  keyFolderPath: D:\\Idea\\IdeaProjects\\supplyChain\\src\\main\\resources\\crypto-config\\peerOrganizations\\org1.example.com\\users\\Admin@org1.example.com\\msp\\keystore
+  keyFileName: 8e891e40aabe661c9f8cf6e5c7d21f4801f7b0268a9a1a472182e13203baa412_sk
+  certFolderPath: D:\\Idea\\IdeaProjects\\supplyChain\\src\\main\\resources\\crypto-config\\peerOrganizations\\org1.example.com\\users\\Admin@org1.example.com\\msp\\signcerts
+  certFileName: Admin@org1.example.com-cert.pem
+  txfilePath: D:\\Idea\\IdeaProjects\\supplyChain\\src\\main\\resources\\joker.tx
+  ordertlsFilePath: D:\\Idea\\IdeaProjects\\supplyChain\\src\\main\\resources\\crypto-config\\ordererOrganizations\\example.com\\tlsca\\tlsca.example.com-cert.pem
+  peer1tlsFilePath: D:\\Idea\\IdeaProjects\\supplyChain\\src\\main\\resources\\crypto-config\\peerOrganizations\\org1.example.com\\peers\\peer1.org1.example.com\\msp\\tlscacerts\\tlsca.org1.example.com-cert.pem
+  peer0tlsFilePath: D:\\Idea\\IdeaProjects\\supplyChain\\src\\main\\resources\\crypto-config\\peerOrganizations\\org1.example.com\\peers\\peer0.org1.example.com\\msp\\tlscacerts\\tlsca.org1.example.com-cert.pem
+  peerorg2tlsFilePath: D:\\Idea\\IdeaProjects\\supplyChain\\src\\main\\resources\\crypto-config\\peerOrganizations\\org2.example.com\\tlsca\\tlsca.org2.example.com-cert.pem
