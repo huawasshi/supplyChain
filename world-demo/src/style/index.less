@@ -1,0 +1,138 @@
+/*
+  样式公共文件
+*/
+@import './base/index.less';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+
+}
+
+.table-page {
+  text-align: right;
+  margin-top: 30px;
+}
+
+
+
+// 大屏样式
+.com-container {
+  width: 100%;
+  height: 100%;
+  /* overflow: hidden; */
+  position: relative;
+}
+
+.com-chart {
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.com-container .el-table {
+  color: #fff;
+  font-size: 12px;
+  border: none;
+  background: #111038
+}
+
+.com-container .el-table td {
+  border: none;
+  height: 36px;
+}
+
+.com-container .el-table th.is-leaf {
+  border: none
+}
+
+.com-container .el-table__header-wrapper thead div,
+.com-container .el-table th {
+  background: #092564;
+  color: #42e2fa;
+  text-align: center;
+  height: 36px;
+  font-size: 14px;
+}
+
+.com-container .el-table .info-row {
+  background: #0f1c48;
+}
+
+.com-container .el-table .positive-row {
+  background: #111038;
+}
+
+.com-container .el-table:before {
+  height: 0;
+}
+
+.com-container .el-table--enable-row-hover .el-table__body tr:hover>td {
+  background: #1a3a6f
+}
+
+.test th {
+  display: none
+}
+
+.test1 .el-table__empty-block {
+  display: none
+}
+
+// 
+
+// 滚动条部分修改（只适配谷歌），火狐、ie再加兼容写法
+#app ::-webkit-scrollbar {
+  width: 6px;
+  height: 4px;
+  padding-right: 2px;
+
+}
+
+#app ::-webkit-scrollbar-thumb {
+  background: @color-ziti;
+  border-radius: 10px;
+  width: 2px;
+  margin: 2px;
+}
+
+#app ::-webkit-scrollbar-track {
+  background: #0f1c48;
+  width: 3px;
+  margin-left: 2px;
+}
+
+#app ::-webkit-scrollbar-track-piece {
+
+  margin: 2px
+}
+
+.el-step__head {
+  width: 15px;
+  height: 15px;
+}
+
+.el-step__description {
+  padding-top: 30px;
+}
+
+.el-step__icon {
+  line-height: 15px;
+}
+
+.el-step__line.is-vertical {
+  top: 18px;
+  left: 9px
+}
+
+.el-step__head.is-text {
+  font-size: 0;
+}

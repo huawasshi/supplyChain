@@ -1,0 +1,377 @@
+
+.el-main {
+    padding: 0
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+// 左侧菜单样式修改
+.el-submenu .el-menu-item {
+    background: @color-side-background-light  !important;
+    // border-top: 1px solid @color-side-background-light;
+}
+
+.el-menu-item {
+
+    color: #fff !important;
+
+    i {
+
+        color: #fff !important
+    }
+}
+
+.el-submenu__title {
+
+    color: #fff !important;
+
+    i {
+
+        color: #fff !important
+    }
+}
+
+// .is-opened {
+//     .el-submenu__title {
+
+//         color: @color-ziti !important;
+
+//         i {
+
+//             color: @color-ziti !important
+//         }
+//     }
+// }
+
+.el-menu-item.is-active {
+    background: transparent !important;
+    color: @color-ziti  !important;
+    font-weight: bold;
+
+    // background: @color-blue  !important;
+    // border-top: 1px solid @color-side-background-light;
+    i {
+        // color: #fff !important
+        color: @color-ziti  !important
+    }
+}
+
+.el-menu-item:hover {
+    background: transparent !important;
+    color: @color-ziti  !important;
+    // background: @color-blue  !important;
+    // color: #fff !important;
+
+    i {
+        // color: #fff !important
+        color: @color-ziti  !important
+    }
+}
+
+.el-submenu__title:hover {
+    background: transparent !important;
+    color: @color-ziti  !important;
+
+    // color: #fff !important;
+    // background: @color-blue  !important;
+    i {
+        // color: #fff !important
+        color: @color-ziti  !important
+    }
+}
+
+.el-header {
+    text-align: right !important;
+}
+
+.search {
+    .el-form-item {
+        width: 100%
+    }
+
+    .el-form--inline .el-form-item__content {
+        width: 60%
+    }
+}
+
+// 按钮样式修改
+
+.el-button:focus,
+.el-button:hover {
+    border-color: @color-btn;
+    color: @color-btn;
+}
+
+.el-button--primary {
+    background: @color-btn;
+    border-color: @color-btn;
+}
+
+.el-button--primary:focus,
+.el-button--primary:hover {
+    background: @color-btn-hover;
+    border-color: @color-btn-hover;
+    color: #fff
+}
+
+.el-button--text {
+    color: @color-btn;
+}
+
+// 表格样式修改
+.el-table--border td {
+    border-left: @table-line;
+    border-right: @table-line;
+}
+
+.el-table td {
+
+    // background-color: #111038;
+    color: #fff;
+    border: none
+}
+
+.el-table tr {
+    // background-color: #111038;
+}
+
+.el-table th {
+    background-color: #111038;
+
+}
+
+.el-table--border th {
+    border: @table-line;
+}
+
+.el-table__header-wrapper thead div {
+    background: #111038;
+    color: @color-ziti
+}
+
+.el-table th.is-leaf {
+    border: none
+}
+
+.el-table .el-tooltip.cell {
+    font-size: 13px;
+}
+
+// 页签样式
+
+
+
+
+
+
+
+.el-pager li.active {
+    background: @color-btn;
+    border-color: @color-btn;
+}
+
+.el-select-dropdown__item.hover,
+.el-select-dropdown__item:hover {
+    color: @color-btn;
+
+}
+
+.el-select-dropdown__item.selected {
+    color: #fff;
+    background: @color-btn  !important;
+}
+
+.el-breadcrumb {
+    font-size: 15px;
+    color: #fff
+}
+
+
+.el-breadcrumb__item:last-child .el-breadcrumb__item__inner,
+.el-breadcrumb__item:last-child .el-breadcrumb__item__inner:hover,
+.el-breadcrumb__item:last-child .el-breadcrumb__item__inner a,
+.el-breadcrumb__item:last-child .el-breadcrumb__item__inner a:hover {
+    // border-bottom: 2px solid @color-btn;
+    padding-bottom: 10px;
+}
+
+.el-breadcrumb__item__inner.is-clickable:hover,
+.el-breadcrumb__item__inner a.is-clickable:hover {
+    color: #fff !important;
+}
+
+.el-tree-node__children {
+    .el-checkbox__inner {
+        display: none !important
+    }
+}
+
+.el-checkbox__input.is-checked .el-checkbox__inner {
+    background-color: @color-btn  !important;
+    border-color: @color-btn  !important
+}
+
+.el-button--text {
+    font-size: 13px;
+}
+
+.el-tree-node__content {
+    height: auto;
+    line-height: 36px;
+}
+
+
+
+.el-breadcrumb__item__inner,
+.el-breadcrumb__item__inner a {
+    color: #fff
+}
+
+.el-breadcrumb__item:last-child .el-breadcrumb__item__inner,
+.el-breadcrumb__item:last-child .el-breadcrumb__item__inner:hover,
+.el-breadcrumb__item:last-child .el-breadcrumb__item__inner a,
+.el-breadcrumb__item:last-child .el-breadcrumb__item__inner a:hover {
+    color: #fff
+}
+
+.el-breadcrumb__separator {
+    color: #fff
+}
+
+.el-button--default {
+    background: transparent !important;
+    border: 1px solid @color-btn;
+    color: @color-btn
+}
+
+.el-form-item__label {
+    color: @color-ziti
+}
+
+
+
+.el-table {
+    background: transparent;
+}
+
+.el-table .info-row {
+    background: #111038;
+}
+
+.el-table .positive-row {
+    background: #0f1c48;
+}
+
+.el-table--enable-row-hover .el-table__body tr:hover>td {
+    background: #3c93ff
+}
+
+.el-pagination button.disabled {
+    background: #092564
+}
+
+.el-pagination__editor {
+    background: #3c93ff;
+    color: #fff;
+}
+
+.el-pagination button,
+.el-pagination span {
+    color: #fff
+}
+
+.el-date-table td.current:not(.disabled),
+.el-date-table td.end-date,
+.el-date-table td.start-date {
+    background: @color-btn  !important
+}
+
+.el-table:before {
+    background: hsl(241, 56%, 14%)
+}
+
+.el-input.is-disabled .el-input__inner {
+    color: #fff
+}
+
+.el-input-group__append,
+.el-input-group__pending,
+.el-input-group__prepend {
+    background-color: #397ef6;
+    color: #fff
+}
+
+.el-select-dropdown {
+    background: #132559
+}
+
+.el-select-dropdown__item {
+    color: #fff
+}
+
+.el-picker-panel {
+    background: #132559;
+    color: #fff
+}
+
+.el-date-table th {
+    color: @color-btn
+}
+
+.el-date-table td.today {
+    color: @color-btn
+}
+
+.el-date-table td.available:hover {
+    background: @color-btn
+}
+
+.el-date-table td.in-range {
+    background: #121e4a
+}
+
+.el-date-range-picker__content.is-left {
+    border-right: 1px solid #4672cf;
+}
+
+.el-timeline__item__tail {
+    border-right: 1px solid #4672cf;
+    border-left: 1px solid #4672cf;
+    left: 3px;
+}
+
+.el-timeline__item__head {
+    background: #4672cf;
+    border-radius: 0;
+    border-color: #4672cf;
+    color: #4672cf;
+    width: 8px;
+    height: 8px;
+}
+
+.el-timeline__item__content {
+    color: #4672cf;
+}
+
+.el-timeline__item {
+    padding: 0 0 30px
+}
+
+.el-dropdown {
+    color: #fff
+}
+
+.el-dropdown-menu {
+    color: #fff;
+    border: none;
+    background-color: #132559;
+}
+
+
+
+.el-header {
+    padding: 0 !important;
+}

@@ -1,0 +1,377 @@
+// 修改bfe框架默认样式的文件
+.bfe-main {
+    padding: 0
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+// 左侧菜单样式修改
+.bfe-submenu .bfe-menu-item {
+    background: @color-side-background-light  !important;
+    // border-top: 1px solid @color-side-background-light;
+}
+
+.bfe-menu-item {
+
+    color: #fff !important;
+
+    i {
+
+        color: #fff !important
+    }
+}
+
+.bfe-submenu__title {
+
+    color: #fff !important;
+
+    i {
+
+        color: #fff !important
+    }
+}
+
+// .is-opened {
+//     .bfe-submenu__title {
+
+//         color: @color-ziti !important;
+
+//         i {
+
+//             color: @color-ziti !important
+//         }
+//     }
+// }
+
+.bfe-menu-item.is-active {
+    background: transparent !important;
+    color: @color-ziti  !important;
+    font-weight: bold;
+
+    // background: @color-blue  !important;
+    // border-top: 1px solid @color-side-background-light;
+    i {
+        // color: #fff !important
+        color: @color-ziti  !important
+    }
+}
+
+.bfe-menu-item:hover {
+    background: transparent !important;
+    color: @color-ziti  !important;
+    // background: @color-blue  !important;
+    // color: #fff !important;
+
+    i {
+        // color: #fff !important
+        color: @color-ziti  !important
+    }
+}
+
+.bfe-submenu__title:hover {
+    background: transparent !important;
+    color: @color-ziti  !important;
+
+    // color: #fff !important;
+    // background: @color-blue  !important;
+    i {
+        // color: #fff !important
+        color: @color-ziti  !important
+    }
+}
+
+.bfe-header {
+    text-align: right !important;
+}
+
+.search {
+    .bfe-form-item {
+        width: 100%
+    }
+
+    .bfe-form--inline .bfe-form-item__content {
+        width: 60%
+    }
+}
+
+// 按钮样式修改
+
+.bfe-button:focus,
+.bfe-button:hover {
+    border-color: @color-btn;
+    color: @color-btn;
+}
+
+.bfe-button--primary {
+    background: @color-btn;
+    border-color: @color-btn;
+}
+
+.bfe-button--primary:focus,
+.bfe-button--primary:hover {
+    background: @color-btn-hover;
+    border-color: @color-btn-hover;
+    color: #fff
+}
+
+.bfe-button--text {
+    color: @color-btn;
+}
+
+// 表格样式修改
+.bfe-table--border td {
+    border-left: @table-line;
+    border-right: @table-line;
+}
+
+.bfe-table td {
+
+    // background-color: #111038;
+    color: #fff;
+    border: none
+}
+
+.bfe-table tr {
+    // background-color: #111038;
+}
+
+.bfe-table th {
+    background-color: #111038;
+
+}
+
+.bfe-table--border th {
+    border: @table-line;
+}
+
+.bfe-table__header-wrapper thead div {
+    background: #111038;
+    color: @color-ziti
+}
+
+.bfe-table th.is-leaf {
+    border: none
+}
+
+.bfe-table .bfe-tooltip.cell {
+    font-size: 13px;
+}
+
+// 页签样式
+
+
+
+
+
+
+
+.bfe-pager li.active {
+    background: @color-btn;
+    border-color: @color-btn;
+}
+
+.bfe-select-dropdown__item.hover,
+.bfe-select-dropdown__item:hover {
+    color: @color-btn;
+
+}
+
+.bfe-select-dropdown__item.selected {
+    color: #fff;
+    background: @color-btn  !important;
+}
+
+.bfe-breadcrumb {
+    font-size: 15px;
+    color: #fff
+}
+
+
+.bfe-breadcrumb__item:last-child .bfe-breadcrumb__item__inner,
+.bfe-breadcrumb__item:last-child .bfe-breadcrumb__item__inner:hover,
+.bfe-breadcrumb__item:last-child .bfe-breadcrumb__item__inner a,
+.bfe-breadcrumb__item:last-child .bfe-breadcrumb__item__inner a:hover {
+    // border-bottom: 2px solid @color-btn;
+    padding-bottom: 10px;
+}
+
+.bfe-breadcrumb__item__inner.is-clickable:hover,
+.bfe-breadcrumb__item__inner a.is-clickable:hover {
+    color: #fff !important;
+}
+
+.bfe-tree-node__children {
+    .bfe-checkbox__inner {
+        display: none !important
+    }
+}
+
+.bfe-checkbox__input.is-checked .bfe-checkbox__inner {
+    background-color: @color-btn  !important;
+    border-color: @color-btn  !important
+}
+
+.bfe-button--text {
+    font-size: 13px;
+}
+
+.bfe-tree-node__content {
+    height: auto;
+    line-height: 36px;
+}
+
+
+
+.bfe-breadcrumb__item__inner,
+.bfe-breadcrumb__item__inner a {
+    color: #fff
+}
+
+.bfe-breadcrumb__item:last-child .bfe-breadcrumb__item__inner,
+.bfe-breadcrumb__item:last-child .bfe-breadcrumb__item__inner:hover,
+.bfe-breadcrumb__item:last-child .bfe-breadcrumb__item__inner a,
+.bfe-breadcrumb__item:last-child .bfe-breadcrumb__item__inner a:hover {
+    color: #fff
+}
+
+.bfe-breadcrumb__separator {
+    color: #fff
+}
+
+.bfe-button--default {
+    background: transparent !important;
+    border: 1px solid @color-btn;
+    color: @color-btn
+}
+
+.bfe-form-item__label {
+    color: @color-ziti
+}
+
+
+
+.bfe-table {
+    background: transparent;
+}
+
+.bfe-table .info-row {
+    background: #111038;
+}
+
+.bfe-table .positive-row {
+    background: #0f1c48;
+}
+
+.bfe-table--enable-row-hover .bfe-table__body tr:hover>td {
+    background: #3c93ff
+}
+
+.bfe-pagination button.disabled {
+    background: #092564
+}
+
+.bfe-pagination__editor {
+    background: #3c93ff;
+    color: #fff;
+}
+
+.bfe-pagination button,
+.bfe-pagination span {
+    color: #fff
+}
+
+.bfe-date-table td.current:not(.disabled),
+.bfe-date-table td.end-date,
+.bfe-date-table td.start-date {
+    background: @color-btn  !important
+}
+
+.bfe-table:before {
+    background: hsl(241, 56%, 14%)
+}
+
+.bfe-input.is-disabled .bfe-input__inner {
+    color: #fff
+}
+
+.bfe-input-group__append,
+.bfe-input-group__pending,
+.bfe-input-group__prepend {
+    background-color: #397ef6;
+    color: #fff
+}
+
+.bfe-select-dropdown {
+    background: #132559
+}
+
+.bfe-select-dropdown__item {
+    color: #fff
+}
+
+.bfe-picker-panel {
+    background: #132559;
+    color: #fff
+}
+
+.bfe-date-table th {
+    color: @color-btn
+}
+
+.bfe-date-table td.today {
+    color: @color-btn
+}
+
+.bfe-date-table td.available:hover {
+    background: @color-btn
+}
+
+.bfe-date-table td.in-range {
+    background: #121e4a
+}
+
+.bfe-date-range-picker__content.is-left {
+    border-right: 1px solid #4672cf;
+}
+
+.bfe-timeline__item__tail {
+    border-right: 1px solid #4672cf;
+    border-left: 1px solid #4672cf;
+    left: 3px;
+}
+
+.bfe-timeline__item__head {
+    background: #4672cf;
+    border-radius: 0;
+    border-color: #4672cf;
+    color: #4672cf;
+    width: 8px;
+    height: 8px;
+}
+
+.bfe-timeline__item__content {
+    color: #4672cf;
+}
+
+.bfe-timeline__item {
+    padding: 0 0 30px
+}
+
+.bfe-dropdown {
+    color: #fff
+}
+
+.bfe-dropdown-menu {
+    color: #fff;
+    border: none;
+    background-color: #132559;
+}
+
+
+
+.bfe-header {
+    padding: 0 !important;
+}

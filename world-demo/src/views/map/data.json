@@ -1,0 +1,383 @@
+{
+  "retcode": "0000000",
+  "retmsg": "成功",
+  "data": {
+    "blockOverview": {
+      "nodeNum": "4",
+      "totalTranNum": "252",
+      "blockHeight": "1205",
+      "lastMonthTranNum": "0",
+      "projectType": "工程建设类",
+      "runStatus": "运行中",
+      "ptContractNum": "129",
+      "ptExpndtrplnNum": "5G"
+    },
+    "nodeStatuses": [{
+        "nodeName": "afmsBC_node1",
+        "nodeStatus": "正常"
+      },
+      {
+        "nodeName": "afmsBC_node4",
+        "nodeStatus": "正常"
+      },
+      {
+        "nodeName": "afmsBC_node3",
+        "nodeStatus": "正常"
+      },
+      {
+        "nodeName": "afmsBC_node2",
+        "nodeStatus": "正常"
+      }
+    ],
+    "tranTypePers": [{
+        "msgType": "新冠",
+        "typeTranNum": "18"
+      },
+      {
+        "msgType": "乙肝",
+        "typeTranNum": "23"
+      },
+      {
+        "msgType": "天花",
+        "typeTranNum": "30"
+      },
+      {
+        "msgType": "手足口",
+        "typeTranNum": "10"
+      }
+    ],
+    "lastWeekTranStats": [{
+        "tranDate": "08:30:21",
+        "dayTranNum": "608",
+        "a1": "795",
+        "a2": "501",
+        "a3": "595"
+      },
+      {
+        "tranDate": "08:40:21",
+        "dayTranNum": "825",
+        "a1": "880",
+        "a2": "482",
+        "a3": "725"
+      },
+      {
+        "tranDate": "08:50:31",
+        "dayTranNum": "398",
+        "a1": "520",
+        "a2": "639",
+        "a3": "408"
+      },
+      {
+        "tranDate": "09:30:21",
+        "dayTranNum": "525",
+        "a1": "495",
+        "a2": "509",
+        "a3": "785"
+      },
+      {
+        "tranDate": "10:13:21",
+        "dayTranNum": "682",
+        "a1": "580",
+        "a2": "542",
+        "a3": "600"
+      },
+      {
+        "tranDate": "10:13:21",
+        "dayTranNum": "628",
+        "a1": "729",
+        "a2": "525",
+        "a3": "703"
+      }
+    ],
+    "lastTrans": [{
+        "tranTime": "2022-08-16 15:24:54",
+        "txHash": "0x76311193ece7901554d9c81087c1fd0d922c2ac0eaf8a4ca8d9b73a2749c14ae",
+        "blockNumber": "1205",
+        "txIndex": "0"
+      },
+      {
+        "tranTime": "2022-08-12 14:45:25",
+        "txHash": "0x50ded74ed077850a93cefaad61a39bf7435e2eabc7cc23cf92bdb581c1b2dd90",
+        "blockNumber": "1204",
+        "txIndex": "0"
+      },
+      {
+        "tranTime": "2022-08-12 14:45:11",
+        "txHash": "0xd34219787fc0e024650292468dcc2113ce3ee73629df5ce9c7fe293d0de34d6d",
+        "blockNumber": "1203",
+        "txIndex": "0"
+      },
+      {
+        "tranTime": "2022-08-12 11:45:11",
+        "txHash": "0x665369400d4e36fd0d1ddb91c3a8989db69d500080083a55a3d2838e37b6c78b",
+        "blockNumber": "1202",
+        "txIndex": "1"
+      },
+      {
+        "tranTime": "2022-08-12 11:45:11",
+        "txHash": "0x7085976a207ba8968ab6a0a569736717ec119730b58983974f2f3ce1ba37fdf0",
+        "blockNumber": "1202",
+        "txIndex": "0"
+      },
+      {
+        "tranTime": "2022-08-12 11:45:09",
+        "txHash": "0xed3229104ac8462b19fb9c8eb4f26ef3cdc6a3f7993a7ffd17914a9883604863",
+        "blockNumber": "1201",
+        "txIndex": "0"
+      },
+      {
+        "tranTime": "2022-08-12 11:45:00",
+        "txHash": "0x33f82149ef1a2f5f2b1920fd23d9524374eda72eb3b10e4a1742ee9cc43fddd9",
+        "blockNumber": "1200",
+        "txIndex": "0"
+      },
+      {
+        "tranTime": "2022-08-12 11:45:00",
+        "txHash": "0x97976174564a4b0e8d7f6b0784416b9eef008a506bc272a095174343cd05b621",
+        "blockNumber": "1200",
+        "txIndex": "1"
+      },
+      {
+        "tranTime": "2022-08-12 11:44:59",
+        "txHash": "0x4eaa6d43a9247347b9d41a8963527a58c969251cb648bb37b84710e6be3b82f0",
+        "blockNumber": "1198",
+        "txIndex": "1"
+      },
+      {
+        "tranTime": "2022-08-12 11:44:59",
+        "txHash": "0xfad31e639a964110824b5b6ddb4d45711e3561ef97aef2934da164d632ae33dc",
+        "blockNumber": "1198",
+        "txIndex": "2"
+      }
+    ],
+    "lastBlocks": [{
+        "blockTime": "2022-08-21 15:24:55",
+        "blockNum": "1205",
+        "blockHash": "0x3e36e1bd560a2ddc4744fd87a54754fa29e6264a8897b45d4f1b51d41278113a",
+        "blockCount": "1"
+      },
+      {
+        "blockTime": "2022-08-21 14:45:26",
+        "blockNum": "1204",
+        "blockHash": "0x0af89c61d739e65cd2009122ec3e1c746e02fd165845bb745450956b715dab53",
+        "blockCount": "1"
+      },
+      {
+        "blockTime": "2022-08-21 14:45:13",
+        "blockNum": "1203",
+        "blockHash": "0xd178d673035811b3622c60627960f7e4c6aad48aad717127618d008778b0a3a1",
+        "blockCount": "1"
+      },
+      {
+        "blockTime": "2022-08-21 11:45:12",
+        "blockNum": "1202",
+        "blockHash": "0x75a2462458e8875e88f53130942bd62a5b2e80dccca3064049f117d3b2fff36c",
+        "blockCount": "2"
+      },
+      {
+        "blockTime": "2022-08-21 11:45:11",
+        "blockNum": "1201",
+        "blockHash": "0xe1b6c67fbdc27affaba088b78c38a9f0f1d781849427c621ba50e8b9a7f75361",
+        "blockCount": "1"
+      },
+      {
+        "blockTime": "2022-08-21 11:45:01",
+        "blockNum": "1199",
+        "blockHash": "0xf31ed842407c55f6b6e619d7b068945e3e1da1e1edba6ffc2820c4497f6dc025",
+        "blockCount": "1"
+      },
+      {
+        "blockTime": "2022-08-21 11:45:01",
+        "blockNum": "1200",
+        "blockHash": "0x520267ddc6712c444a1387b231ffce01539f5af655f069a535c6a754a9260734",
+        "blockCount": "2"
+      },
+      {
+        "blockTime": "2022-08-21 11:45:00",
+        "blockNum": "1198",
+        "blockHash": "0x0b202556b2e77fc8d314d9ef80879f22346e9d144207b1a0a2a82e7a51c6a42f",
+        "blockCount": "3"
+      },
+      {
+        "blockTime": "2022-08-21 11:44:58",
+        "blockNum": "1197",
+        "blockHash": "0xa2c87f3e5d39d3739229a6d5d2fc09fffd93f2412361e01aaeabf94a7c550718",
+        "blockCount": "6"
+      },
+      {
+        "blockTime": "2022-08-21 11:44:57",
+        "blockNum": "1196",
+        "blockHash": "0x7f58d98a875e69fb2dd3cae31c3d272bcc9c0470c5d1ac6ea8fef161fca85c66",
+        "blockCount": "2"
+      }
+    ],
+    "ptContracts": [{
+        "provinceName": "辽宁",
+        "value": "1"
+      },
+      {
+        "provinceName": "黑龙江",
+        "value": "1"
+      },
+      {
+        "provinceName": "江西",
+        "value": "2"
+      },
+      {
+        "provinceName": "贵州",
+        "value": "1"
+      },
+      {
+        "provinceName": "青海",
+        "value": "3"
+      },
+      {
+        "provinceName": "河北",
+        "value": "12"
+      },
+      {
+        "provinceName": "浙江",
+        "value": "2"
+      },
+      {
+        "provinceName": "山东",
+        "value": "1"
+      },
+      {
+        "provinceName": "海南",
+        "value": "1"
+      },
+      {
+        "provinceName": "重庆",
+        "value": "1"
+      },
+      {
+        "provinceName": "四川",
+        "value": "1"
+      },
+      {
+        "provinceName": "西藏",
+        "value": "4"
+      },
+      {
+        "provinceName": "湖北",
+        "value": "1"
+      },
+      {
+        "provinceName": "广东",
+        "value": "1"
+      },
+      {
+        "provinceName": "内蒙古",
+        "value": "22"
+      },
+      {
+        "provinceName": "天津",
+        "value": "1"
+      },
+      {
+        "provinceName": "安徽",
+        "value": "1"
+      },
+      {
+        "provinceName": "湖南",
+        "value": "1"
+      },
+      {
+        "provinceName": "广西",
+        "value": "2"
+      },
+      {
+        "provinceName": "云南",
+        "value": "1"
+      },
+      {
+        "provinceName": "山西",
+        "value": "1"
+      },
+      {
+        "provinceName": "吉林",
+        "value": "1"
+      },
+      {
+        "provinceName": "江苏",
+        "value": "10"
+      },
+      {
+        "provinceName": "河南",
+        "value": "1"
+      },
+      {
+        "provinceName": "福建",
+        "value": "1"
+      },
+      {
+        "provinceName": "北京",
+        "value": "49"
+      },
+      {
+        "provinceName": "甘肃",
+        "value": "1"
+      },
+      {
+        "provinceName": "上海",
+        "value": "1"
+      },
+      {
+        "provinceName": "陕西",
+        "value": "2"
+      },
+      {
+        "provinceName": "新疆",
+        "value": "1"
+      },
+      {
+        "provinceName": "宁夏",
+        "value": "1"
+      }
+    ],
+    "ptExpndtrplns": [{
+        "payPurpose": "8月7日",
+        "value": "76",
+        "value1": "62",
+        "value2": "82",
+        "value3": "58"
+      },
+      {
+        "payPurpose": "8月8日",
+        "value": "43",
+        "value1": "63",
+        "value2": "75",
+        "value3": "55"
+      },
+      {
+        "payPurpose": "8月9日",
+        "value": "43",
+        "value1": "63",
+        "value2": "75",
+        "value3": "55"
+      },
+      {
+        "payPurpose": "8月10日",
+        "value": "43",
+        "value1": "63",
+        "value2": "75",
+        "value3": "55"
+      },
+      {
+        "payPurpose": "8月11日",
+        "value": "43",
+        "value1": "63",
+        "value2": "75",
+        "value3": "55"
+      },
+      {
+        "payPurpose": "8月12日",
+        "value": "43",
+        "value1": "63",
+        "value2": "75",
+        "value3": "55"
+      }
+    ]
+  }
+}
